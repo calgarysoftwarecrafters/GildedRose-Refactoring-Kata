@@ -1,4 +1,4 @@
-package com.gildedrose;
+package org.css.gildedroserefactor;
 
 class GildedRose {
     Item[] items;
