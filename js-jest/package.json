@@ -5,7 +5,7 @@
   "main": "src/gilded_rose.js",
   "scripts": {
     "test": "jest --no-cache ./*",
-    "watch": "jest --no-cache --watch ./*",
+    "watch": "jest --no-cache --watch test/*",
     "lint": "eslint .",
     "lint-test": "eslint . && jest --no-cache ./* "
   },
