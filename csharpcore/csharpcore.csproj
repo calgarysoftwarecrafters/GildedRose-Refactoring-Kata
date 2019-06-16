@@ -13,5 +13,6 @@
   </ItemGroup>
   <ItemGroup Condition="'$(Configuration)' == 'Debug'">
     <None Update="ThirtyDays.txt" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="ThirtyDaysNoConjuredItem.txt" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 </Project>
