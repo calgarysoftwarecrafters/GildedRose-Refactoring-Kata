@@ -10,7 +10,7 @@ namespace csharpcore
         [Fact]
         public void ThirtyDays()
         {
-            var lines = File.ReadAllLines("ThirtyDays.txt");
+            var lines = File.ReadAllLines("ThirtyDaysNoConjuredItem.txt");
 
             StringBuilder fakeoutput = new StringBuilder();
             Console.SetOut(new StringWriter(fakeoutput));
@@ -20,7 +20,7 @@ namespace csharpcore
             String output = fakeoutput.ToString();
 
             var outputLines = output.Split('\n');
-            for(var i = 0; i<Math.Min(lines.Length, outputLines.Length); i++) 
+            for (var i = 0; i < Math.Min(lines.Length, outputLines.Length); i++)
             {
                 Assert.Equal(lines[i], outputLines[i]);
             }
